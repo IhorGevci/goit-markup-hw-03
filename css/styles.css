@@ -1,0 +1,141 @@
+:root {
+  --primary-text-color: #ffffff;
+  --title-text-color: #434455;
+  --accent-color: #4d5ae5;
+  --subtitle-color: #2e2f42;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  background-color: var(--primary-text-color);
+  font-size: 16px;
+  color: var(--subtitle-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+
+.header-link:hover,
+.header-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+.accent {
+  color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  font-style: normal;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.hero-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-text-color);
+  background: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* footer */
+
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* .portfolio { */
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: #404bbf;
+  color: var(--primary-text-color);
+}
+.portfolio-btn {
+  background: #f4f4fd;
+  border: none;
+  border-radius: 4px;
+  color: var(--accent-color);
+  cursor: pointer;
+}
