@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --primary-text-color: #ffffff;
   --title-text-color: #434455;
@@ -101,6 +109,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.section-team {
+  background-color: #f4f4fd;
 }
 
 /* footer */
