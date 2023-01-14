@@ -13,6 +13,39 @@ html {
   --subtitle-color: #2e2f42;
 }
 
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
 body {
   font-family: "roboto", sans-serif;
   background-color: var(--primary-text-color);
@@ -70,25 +103,31 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  text-align: center;
+  outline: 2px solid tomato;
+  padding-top: 24px;
+  align-items: center;
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
+  max-width: 500px;
   color: var(--primary-text-color);
+  margin-top: 188px;
 }
 .hero-btn {
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   letter-spacing: 0.04em;
   color: var(--primary-text-color);
   background: var(--accent-color);
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  padding: 16px 32px;
+  margin-bottom: 188px;
+  margin-top: 48px;
 }
 
 .section-subtitle {
@@ -106,13 +145,8 @@ body {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.section-team {
-  background-color: #f4f4fd;
 }
 
 /* footer */
