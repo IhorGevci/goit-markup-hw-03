@@ -1,11 +1,11 @@
-/* html {
+html {
   box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-} */
+}
 :root {
   --primary-text-color: #ffffff;
   --title-text-color: #434455;
@@ -131,6 +131,7 @@ body {
   margin-right: auto;
 }
 .hero-btn {
+  display: block;
   border: none;
   cursor: pointer;
   border-radius: 4px;
