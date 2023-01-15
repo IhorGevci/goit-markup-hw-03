@@ -13,46 +13,20 @@ html {
   --subtitle-color: #2e2f42;
 }
 
-.container {
-  width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 2px solid tomato;
-}
 h1,
 h2,
 h3,
 h4,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
+p {
+  margin: 0;
 }
 ul {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding-left: 0;
 }
 img {
   display: block;
 }
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  justify-content: center;
-}
-
-body {
-  font-family: "roboto", sans-serif;
-  background-color: var(--primary-text-color);
-  font-size: 16px;
-  color: var(--subtitle-color);
-}
-
 .list {
   list-style: none;
 }
@@ -63,7 +37,23 @@ body {
 .visually-hidden {
   visibility: hidden;
 }
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
 
+.header {
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+.header-navigation {
+}
 .header-link:hover,
 .header-link:focus,
 .contact-link:hover,
@@ -78,6 +68,13 @@ body {
   background: #404bbf;
 }
 
+body {
+  font-family: "roboto", sans-serif;
+  background-color: var(--primary-text-color);
+  font-size: 16px;
+  color: var(--subtitle-color);
+}
+/* HEADER */
 .logo {
   font-weight: 800;
   font-size: 18px;
@@ -100,7 +97,7 @@ body {
   color: var(--title-text-color);
   font-style: normal;
 }
-
+/* HERO */
 .hero {
   background-color: #2e2f42;
   text-align: center;
@@ -113,7 +110,7 @@ body {
   line-height: 1.07;
   max-width: 500px;
   color: var(--primary-text-color);
-  margin-top: 188px;
+  padding-top: 188px;
 }
 .hero-btn {
   font-size: 16px;
@@ -130,11 +127,15 @@ body {
   margin-top: 48px;
 }
 
+/* ADVANTAGES */
+.advantages {
+}
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .section-desc {
   line-height: 1.5;
@@ -147,6 +148,24 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 72px;
+}
+
+.team-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.section-list {
+  display: flex;
+  text-align: center;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.working-list {
+  display: flex;
+  gap: 24px;
 }
 
 /* footer */
