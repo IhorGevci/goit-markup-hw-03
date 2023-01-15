@@ -221,12 +221,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  text-align: center;
 }
 
 /* footer */
 
 .footer {
   background: #2e2f42;
+  padding: 100px 1020px 100px 156px;
 }
 .footer-logo {
   font-weight: 800;
@@ -240,16 +242,17 @@ body {
 }
 
 .footer-desc {
+  padding-top: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 .footer-content {
-  width: 265px;
-  margin-left: auto;
+  width: 300px;
 }
 
-/* .portfolio { */
+.portfolio {
+}
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -267,10 +270,16 @@ body {
 .portfolio-list {
   display: flex;
   justify-content: center;
-  display: flex;
   gap: 24px;
-  margin-bottom: 72px;
 }
+
+.button-list {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 72px;
+  background-color: blue;
+}
+
 .visually-list {
   display: flex;
   flex-wrap: wrap;
