@@ -14,29 +14,33 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="logo link">
-          <span class="accent">Web</span>Studio</a
-        >
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link link">Studio</a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="header-list list">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="logo link">
+            <span class="accent">Web</span>Studio</a
+          >
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link link">Studio</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list header-container">
           <li class="contact-link">
             <a
               href="mailto:info@devstudio.com"
@@ -52,107 +56,113 @@
             >
           </li>
         </ul>
-      </address>
+      </div>
     </header>
     <main>
       <section class="portfolio">
-        <h1 class="visually-hidden">Header</h1>
-        <ul class="portfolio-list list">
-          <li><button class="portfolio-btn list" type="button">All</button></li>
-          <li>
-            <button class="portfolio-btn list" type="button">Web Site</button>
-          </li>
-          <li><button class="portfolio-btn list" type="button">App</button></li>
-          <li>
-            <button class="portfolio-btn list" type="button">Design</button>
-          </li>
-          <li>
-            <button class="portfolio-btn" type="button">Marketing</button>
-          </li>
-        </ul>
-        <ul class="visually-list">
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img1.jpg"
-              alt="Application"
-              width="360"
-            />
-            <h3 class="section-subtitle">Banking App Interface Concept</h3>
-            <p class="section-desc">App</p>
-          </li>
-          <li class="section-item list">
-            <img
-              src="./images/portfolio/img2.jpg"
-              alt="Cashless Payment"
-              width="360"
-            />
-            <h3 class="section-subtitle">Cashless Payment</h3>
-            <p class="section-desc">Marketing</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img3.jpg"
-              alt="Meditaion App"
-              width="360"
-            />
-            <h3 class="section-subtitle">Meditaion App</h3>
-            <p class="section-desc">App</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img4.jpg"
-              alt="Taxi Service"
-              width="360"
-            />
-            <h3 class="section-subtitle">Taxi Service</h3>
-            <p class="section-desc">Marketing</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img5.jpg"
-              alt="Screen Illustrations"
-              width="360"
-            />
-            <h3 class="section-subtitle">Screen Illustrations</h3>
-            <p class="section-desc">Design</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img6.jpg"
-              alt="Online Courses"
-              width="360"
-            />
-            <h3 class="section-subtitle">Online Courses</h3>
-            <p class="section-desc">Marketing</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img7.jpg"
-              alt="Instagram Stories Concept"
-              width="360"
-            />
-            <h3 class="section-subtitle">Instagram Stories Concept</h3>
-            <p class="section-desc">Design</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img8.jpg"
-              alt="Organic Food"
-              width="360"
-            />
-            <h3 class="section-subtitle">Organic Food</h3>
-            <p class="section-desc">Web Site</p>
-          </li>
-          <li class="visually-item list">
-            <img
-              src="./images/portfolio/img9.jpg"
-              alt="Fresh Coffee"
-              width="360"
-            />
-            <h3 class="section-subtitle">Fresh Coffee</h3>
-            <p class="section-desc">Web Site</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Header</h1>
+          <ul class="portfolio-list list">
+            <li>
+              <button class="portfolio-btn list" type="button">All</button>
+            </li>
+            <li>
+              <button class="portfolio-btn list" type="button">Web Site</button>
+            </li>
+            <li>
+              <button class="portfolio-btn list" type="button">App</button>
+            </li>
+            <li>
+              <button class="portfolio-btn list" type="button">Design</button>
+            </li>
+            <li>
+              <button class="portfolio-btn" type="button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="visually-list">
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img1.jpg"
+                alt="Application"
+                width="360"
+              />
+              <h3 class="section-subtitle">Banking App Interface Concept</h3>
+              <p class="section-desc">App</p>
+            </li>
+            <li class="section-item list">
+              <img
+                src="./images/portfolio/img2.jpg"
+                alt="Cashless Payment"
+                width="360"
+              />
+              <h3 class="section-subtitle">Cashless Payment</h3>
+              <p class="section-desc">Marketing</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img3.jpg"
+                alt="Meditaion App"
+                width="360"
+              />
+              <h3 class="section-subtitle">Meditaion App</h3>
+              <p class="section-desc">App</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img4.jpg"
+                alt="Taxi Service"
+                width="360"
+              />
+              <h3 class="section-subtitle">Taxi Service</h3>
+              <p class="section-desc">Marketing</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img5.jpg"
+                alt="Screen Illustrations"
+                width="360"
+              />
+              <h3 class="section-subtitle">Screen Illustrations</h3>
+              <p class="section-desc">Design</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img6.jpg"
+                alt="Online Courses"
+                width="360"
+              />
+              <h3 class="section-subtitle">Online Courses</h3>
+              <p class="section-desc">Marketing</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img7.jpg"
+                alt="Instagram Stories Concept"
+                width="360"
+              />
+              <h3 class="section-subtitle">Instagram Stories Concept</h3>
+              <p class="section-desc">Design</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img8.jpg"
+                alt="Organic Food"
+                width="360"
+              />
+              <h3 class="section-subtitle">Organic Food</h3>
+              <p class="section-desc">Web Site</p>
+            </li>
+            <li class="visually-item list">
+              <img
+                src="./images/portfolio/img9.jpg"
+                alt="Fresh Coffee"
+                width="360"
+              />
+              <h3 class="section-subtitle">Fresh Coffee</h3>
+              <p class="section-desc">Web Site</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
