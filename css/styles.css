@@ -54,7 +54,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 .header {
@@ -73,6 +72,10 @@ img {
   gap: 40px;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  /* outline: 2px solid tomato; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link:hover,
 .header-link:focus,
@@ -260,6 +263,7 @@ body {
 }
 
 .portfolio {
+  padding-bottom: 120px;
 }
 .portfolio-container {
   display: flex;
@@ -311,7 +315,5 @@ body {
   padding: 32px 16px;
   border: 0.5px solid #e7e9fc;
   border-top: none;
-  display: flex;
-  flex-direction: column;
   gap: 8px;
 }
