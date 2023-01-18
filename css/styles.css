@@ -18,7 +18,7 @@ h2,
 h3,
 h4,
 p {
-  margin: 0 auto;
+  margin: 0;
 }
 ul {
   margin: 0;
@@ -240,17 +240,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  width: 264px;
 }
 .footer-content {
 }
 
 .portfolio {
-  padding-bottom: 120px;
+  padding-top: 96px;
 }
 .portfolio-container {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
 }
 
 .portfolio-btn:hover,
@@ -270,23 +268,16 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 72px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .button-list {
-  margin-left: auto;
-  margin-right: auto;
-
-  /* background-color: blue; */
-  padding: 0px;
-  width: 586px;
 }
 
 .visually-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
   row-gap: 48px;
   column-gap: 24px;
 }
